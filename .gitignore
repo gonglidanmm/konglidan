@@ -1,0 +1,30 @@
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+coverage/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and caches
+*.log
+.cache/
+.parcel-cache/
+.turbo/
+
+# Editor and OS files
+.idea/
+.vscode/
+*.swp
